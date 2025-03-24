@@ -33,21 +33,21 @@ create table Vacina(
 );
 
 -- Tipos de animais
-Insert into tipo_animal(nome) values
+Insert into tipo_animal (tipo) values
 ('Caninos'), ('Felinos'), ('Suínos'), ('Caprinos'), ('Equinos'), ('Exóticos');
 
 -- Caracteristicas
 insert into Animal (nome, Dt_Nascimento, Cor, Peso, Altura, id_tipo_animal) values
-('Lola', '01-04-2023', 'branco', 4.2, 0.42, 1),
-('Miel', '14-09-2024', 'branco e laranja', 2.5, 0.40, 2),
-('Mimi', '08-05-2019', 'preto', 6.6, 0.70, 3),
-('Sugar', '09-11-2020', 'cinza', 3.0, 0.30, 4),
-('Dudu', '12-12-2021', 'branco', 100.5, 0.25, 5);
+('Lola', '2023-01-04', 'branco', 4.2, 0.42, 1),
+('Miel', '2024-09-14', 'branco e laranja', 2.5, 0.40, 2),
+('Mimi', '2019-05-08', 'preto', 6.6, 0.70, 3),
+('Sugar', '2020-11-09', 'cinza', 3.0, 0.30, 4),
+('Dudu', '2021-12-12', 'branco', 100.5, 0.25, 5);
 
 -- Vacinas
-insert into Vacinas (nome, data_ap, id_animal) values
-('V10', '05-06-2024', 1),
-('Antirrábica', '27-01-2025', 4),
-('Tétano', '27-01-2025', 4),
+insert into Vacina (nome, data_ap, id_animal) values
+('V10', '2024-06-05', 1),
+('Antirrábica', '2025-01-27', 4),
+('Tétano', '2025-01-27', 4),
 ('Clostridial', '2023-07-10', 5),
 ('Gripe Suína', '2023-04-01', 5);
