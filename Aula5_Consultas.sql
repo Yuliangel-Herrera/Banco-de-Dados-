@@ -24,7 +24,7 @@ where NF.Nro_nota = 4
 order by 
      NF.Nro_nota Desc, INF.Cod_produto asc;
      
-     -- FUNÇO~ES DE AGREGAÇÃO Contando e quantificando registros
+     -- FUNÕES DE AGREGAÇÃO Contando e quantificando registros
      -- Quantas notas fiscais tem emitidas?
      select count(*)
      from Nota_fiscal;
